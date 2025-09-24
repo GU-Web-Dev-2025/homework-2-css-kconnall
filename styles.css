@@ -1,0 +1,121 @@
+     body {
+        height: 100%;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        width: 100%;   
+        height: 100%; 
+    }
+
+
+    .header {
+        background:linear-gradient(#98b0e8, #c0e1f2);
+        padding: 5px;
+        flex: 0 0 auto; 
+        border: 1px solid black;
+        justify-content: center;
+        text-align: center;
+        font-size: large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    #flex-container {
+        display: flex;
+        flex: 1;  
+    }
+
+    .Nav {
+        background:linear-gradient(#98b0e8,#c0e1f2);
+        flex: 0 0 25%;
+        border: 1px solid black;
+    }
+
+    .Article {
+        background:linear-gradient(#c0e1f2,#98b0e8);
+        flex: 1; 
+        border: 1px solid black;
+    }
+    #Mainimg{
+        float: center; 
+        margin-left: 10px;
+        margin-top: 10px;
+        border-radius: 50;
+        width: 150px;
+        height: 150px;
+        object-fit: cover; 
+        border-radius: 50%;
+        object-position: 50% 20%;
+    }
+    #Intrests {
+        margin: 30px auto;
+        padding: 20px;
+        border-radius: 20px;
+        background: linear-gradient(#84fab0, #8fd3f4);
+        box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+        font-family: 'Comic Sans MS', cursive, sans-serif;
+        color: #222;
+        border-left: 4px solid #444;
+    }
+    #Career{
+        margin: 30px auto;
+        padding: 20px;
+        border-radius: 20px;
+        background: linear-gradient(#84fab0, #8fd3f4);
+        box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+        font-family: 'Comic Sans MS', cursive, sans-serif; 
+        color: #222;
+        border-left: 4px solid #444;
+    }
+    #Education{
+        margin: 30px auto;
+        padding: 20px;
+        border-radius: 20px;
+        background: linear-gradient(#84fab0, #8fd3f4);
+        box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+        font-family: 'Comic Sans MS', cursive, sans-serif; 
+        color: #222;
+        border-left: 4px solid #444;
+    }
+    #Qualifications {
+        margin: 30px auto;
+        padding: 20px;
+        border-radius: 20px;
+        background: linear-gradient(135deg, #84fab0, #8fd3f4);
+        box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+        font-family: 'Comic Sans MS', cursive, sans-serif; 
+        color: #222;
+        border-left: 4px solid #444;
+    }
+    #Introduction {
+        max-width: 400px;
+        margin: 30px auto;
+        padding: 20px;
+        border-radius: 20px;
+        background: linear-gradient(135deg, #84fab0, #8fd3f4);
+        box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+        font-family: 'Comic Sans MS', cursive, sans-serif;
+        color: #222;
+    }
+    
+    .contact-card {
+        margin: 30px auto;
+        padding: 20px;
+        border-radius: 20px;
+        background: linear-gradient(135deg, #84fab0, #8fd3f4);
+        box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+        font-family: 'Comic Sans MS', cursive, sans-serif;
+    }
+
+    .contact-card:hover {
+        transform: translateY(-9px) rotate(-14deg);
+    }
+
+    .contact-card p {
+        margin: 10px 0;
+        padding: 10px;
+        border-left: 4px solid #444;
+        background: rgba(255,255,255,0.6);
+        border-radius: 10px;
+    }
