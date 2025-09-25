@@ -109,7 +109,8 @@
         box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
         font-family: 'Comic Sans MS', cursive, sans-serif;
     }
-
+    
+    /* Extra credit attempt */
     .contact-card:hover {
         transform: translateY(-9px) rotate(-14deg);
     }
