@@ -117,7 +117,7 @@
         font-family: 'Comic Sans MS', cursive, sans-serif;
     }
 
-    /* Extra credit attempt */
+    /* EXTRA CREDIT special effect */
     .contact-card:hover {
         transform: translateY(-9px) rotate(-14deg);
     }
