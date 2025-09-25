@@ -1,3 +1,10 @@
+     /* Kyle Connall
+     CPSC 333 Web Dev
+     Homework 2 CSS
+     9/25/25
+     CSS External
+      */
+     
      body {
         height: 100%;
     }
@@ -109,7 +116,7 @@
         box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
         font-family: 'Comic Sans MS', cursive, sans-serif;
     }
-    
+
     /* Extra credit attempt */
     .contact-card:hover {
         transform: translateY(-9px) rotate(-14deg);
@@ -123,11 +130,14 @@
         border-radius: 10px;
     }
     #skills{
-        margin: 10px 10px;
-        padding-left: 20;
+       margin: 30px auto;
+        padding: 20px;
+        border-radius: 20px;
+        background: linear-gradient(#84fab0, #8fd3f4);
+        box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+        font-family: 'Comic Sans MS', cursive, sans-serif; 
+        color: #222;
         border-left: 4px solid #444;
-        background: rgba(182, 213, 231, 0.6);
-        border-radius: 10px;
     }
 
     table{
@@ -145,6 +155,14 @@
         padding: 15px;
     }
     ol{
+        margin: 10px 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-left: 4px solid #444;
+        background: rgba(255,255,255,0.6);
+        border-radius: 10px; 
+    }
+    #skillList{
         margin: 10px 0;
         padding-top: 10px;
         padding-bottom: 10px;
